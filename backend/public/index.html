@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome Page</title>
+</head>
+<body>
+    <h1>Welcome to the Site!</h1>
+    <p id="username">Loading...</p>
+</body>
+</html>
+<script>
+    function getQueryParam(param) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(param);
+    }
+
+    const username = getQueryParam('name');
+    if (username) {
+        document.getElementById('username').textContent = 'Welcome, ' + decodeURIComponent(username);
+    } else {
+        document.getElementById('username').textContent = 'Welcome, Guest';
+    }
+</script>
