@@ -1,0 +1,170 @@
+.header {
+    position: static;  
+    top: 0;           
+    display: flex;
+    width: 100%;     
+    height: 8rem; 
+    flex-shrink: 0;
+    background: var(--colors-primary, #2037B6);   
+  }
+
+  .header1 {
+    position: static;  
+    top: 0;           
+    display: flex;
+    width: 100%;     
+    height: 25rem; 
+    flex-shrink: 0;
+    background: var(--colors-primary, #2037B6);   
+  }
+  
+  .logoBox {
+    padding-left: 5rem;
+    padding-top: 0.41rem;
+  }
+
+  .logoBox2 {
+    padding-right: 5rem;
+  }
+  
+  .header h1 {
+    color: var(--Headerwhite, white);
+    font-size: 15px; 
+    margin: 0 10px;
+  }
+  .logo {
+    width: 25px;  /* 宽度设置为 100px */
+    height: auto;  /* 高度自动调整，保持图片的纵横比 */
+    margin-right: 10px;
+  }
+
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 水平起始位置对齐 */
+}
+
+
+.container {
+  display: flex; 
+  justify-content: space-between; /* 使一个元素靠左，另一个靠右 */
+  width: 95%; /* 容器宽度为100% */
+  padding-top: 1.5rem;
+}
+
+.purple_square_button {
+  background-color: var(--Headerwhite, #BD4088);
+  color: white;
+  border: none; 
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px; /* 确保文字垂直居中，与高度相同 */
+  cursor: pointer;
+  border-radius: 0px;
+  /* font-weight: bold; */
+  margin-left: 10px;
+}
+
+.purple_square_button:hover {
+  background-color: #ff85a2; /* 鼠标悬停时按钮颜色变深 */
+}
+
+.purple_square_button:hover {
+  background-color: darkpurple;
+}
+
+.centerTitle {
+  position: absolute;     /* 使用绝对定位 */
+  left: 50%;              /* 水平居中 */
+  top: 30%;               /* 垂直居中 */
+  transform: translate(-50%, -50%); /* 确保完全居中 */
+  z-index: 10;            /* 确保它在其他元素之上 */
+}
+
+.centerTitle h1 {
+  font-size: 3.5rem;        /* 根据需要调整大小 */
+  color: white;           /* 根据需要调整颜色 */
+  padding-left: 50px;
+  
+}
+
+.centerTitle p {
+  font-size: 1rem;        /* 根据需要调整大小 */
+  color: white;           /* 根据需要调整颜色 */
+  /* 其他可能的样式 */
+}
+
+
+.while_square_button {
+  background-color: var(--Headerwhite, #FDFBEF);
+  color: #2037B6;
+  border: none; 
+  width: 100px;
+  height: 50px;
+  font-size: 17px;
+  text-align: center;
+  line-height: 20px; /* 确保文字垂直居中，与高度相同 */
+  cursor: pointer;
+  border-radius: 0px;
+  margin-right: 20px;
+  margin-top: -10px;
+
+}
+
+.bule_square_button {
+  background-color: var(--Headerwhite,#2037B6);
+  color: white;
+  border: 2px solid white;; 
+  width: 100px;
+  height: 40px;
+  font-size: 13px;
+  text-align: center;
+  line-height: 20px; /* 确保文字垂直居中，与高度相同 */
+  cursor: pointer;
+  border-radius: 0px;
+  margin-right: 20px;
+}
+
+.button_container {
+  padding-top: 50px;
+  margin-top: 30px;
+}
+
+.custom_link {
+  text-decoration: none;
+  color: white;
+}
+
+.titleToTop {
+  margin-top: 100px;
+  white-space: nowrap;
+}
+.pTotile{
+  margin-top: -20px;
+  font-size: 20px;
+  color: white;
+}
+
+.logoWord{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-left: 7px;
+}
+
+.logoWord2{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.logoWord3{
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-left: 20px;
+}

@@ -1,0 +1,63 @@
+.imageContainer {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+.imageFrame {
+    width: 70px; /* 框的宽度 */
+    height: 25px; /* 框的高度 */
+    background-color: #FDFBEF;
+    padding: 10px; /* 内边距 */
+    display: flex; /* 启用 Flexbox */
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    width: 100px;  /* 宽度设置为 100px */
+    height: auto;  /* 高度自动调整，保持图片的纵横比 */
+  }
+
+  .logo2 {
+    width: 75px;  /* 宽度设置为 100px */
+    height: auto;  /* 高度自动调整，保持图片的纵横比 */
+  }
+  .logospc {
+    width: 130px;  /* 宽度设置为 100px */
+    height: auto;  /* 高度自动调整，保持图片的纵横比 */
+    margin-right: -20px;
+  }
+
+  .logoIMO {
+    width: 140px; 
+    height: auto;  
+  }
+
+  .logoCG {
+    width: 140px; 
+    height: auto;  
+    margin-left: 10px;
+    margin-bottom: -5px ;
+  }
+  
+  .logoJM {
+    margin-top: 7px;
+    width: 100px; 
+    height: auto;  
+  }
+
+  .logoZBC {
+    width: 75px;  /* 宽度设置为 100px */
+    height: auto;  /* 高度自动调整，保持图片的纵横比 */
+    margin-right: 7px;
+  }
+
+  .logoZBC1 {
+    width: 125px;  /* 宽度设置为 100px */
+    height: auto;  /* 高度自动调整，保持图片的纵横比 */
+    margin-right: 7px;
+  }

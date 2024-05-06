@@ -1,0 +1,33 @@
+.footer {
+    background-color: #2037B6; /* 设置背景颜色 */
+    color: white; /* 设置文字颜色 */
+    display: flex; /* 启用 Flexbox */
+    justify-content: space-around; /* 三列之间均匀分布空间 */
+    align-items: flex-start; /* 垂直居中 */
+    padding: 3rem 10px; /* 增加顶部和底部的内边距 */
+    height: auto; /* 根据内容自动调整高度 */
+}
+
+.footer_item {
+    display: flex; /* 启用 Flexbox */
+    flex-direction: column; /* 元素垂直排列 */
+    align-items: flex-start; /* 元素靠左对齐 */
+    margin-left: 5px;
+}
+
+.mytext{
+    text-align: left;
+    padding-top: 10px;
+}
+
+.mytext2{
+    text-align: left;
+    padding-top: 150px;
+}
+
+.mytext3{
+    text-align: left;
+    padding-top: 24px;
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+.centered_text {
+    color: #2037B6;      /* 文字颜色 */
+    background-color: #FDFBEF; /* 背景颜色 */
+    text-align: center;  /* 文本居中 */
+    padding: 20px;       /* 内边距，可根据需要调整 */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom_heading {
+    color: #2037B6; /* 设置标题颜色 */
+    padding-top: 80px;
+    font-size: 40px;
+}
+
+.custom_credit {
+    font-size: 60px; /* 或您需要的任何尺寸 */
+    margin-top: 70px;
+}
+
+.custom_credit2 {
+    font-size: 30px; /* 或您需要的任何尺寸 */
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
+.custom_text {
+    font-size: 28px; /* 或您需要的任何尺寸 */
+}
+
+.line {
+    background-color: #2037B6;
+    height: 1.2px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+
+.square_button {
+    background-color: #2037B6; /* 蓝色背景 */
+    color: white;             /* 白色文字 */
+    border: none;             /* 无边框 */
+    cursor: pointer;          /* 鼠标悬浮时显示手形图标 */
+
+    /* 正方形尺寸，您可以根据需要调整 */
+    width: 100px;              /* 宽度 */
+    height: 50px;             /* 高度 */
+    
+    /* 文本居中 */
+    text-align: center;
+    line-height: 50px;        /* 行高与高度相同以垂直居中文本 */
+
+    font-size: 17px;
+    /* 上边距 */
+    margin-top: 20px;         /* 您可以根据需要调整这个值 */
+
+    /* 添加一些过渡效果，使按钮在鼠标悬浮时有变化 */
+    transition: background-color 0.3s, transform 0.3s;
+
+    /* 可选：鼠标悬浮时改变背景颜色和稍微放大按钮 */
+    &:hover {
+        background-color: #1A2C80; /* 悬浮时的背景颜色 */
+        transform: scale(1.05);    /* 稍微放大 */
+    }
+}
+
+.my_title {
+    color: #2037B6; /* 设置标题颜色 */
+    padding-top: 3rem;
+}
+
+.parentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 148px;
+}
+
+
+.centered_text2 {
+    color: #2037B6;      /* 文字颜色 */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.introImage {
+    width: 100%;
+    height: auto;
+    margin-bottom: -10px;
+}

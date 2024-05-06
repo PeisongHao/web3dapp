@@ -1,0 +1,50 @@
+.tabs {
+    display: flex; /* 使用 Flexbox */
+    justify-content: center;
+    gap: 12rem;
+}
+
+.tab {
+    cursor: pointer; /* 添加手形光标 */
+    margin-right: 10px; /* 在标题之间添加一些空间 */
+    text-align: center; /* 标题文本居中 */
+}
+
+.underline {
+    height: 5px;
+    background-color: #BD4088; /* 粉红色线段 */
+    width: 30%; /* 线段宽度与标题宽度相同 */
+    margin: 0 auto;
+    bottom: 200px;
+    border-radius: 2px;
+    margin-top: -10px;
+}
+
+.container {
+    display: flex; /* 启用 Flexbox */
+    justify-content: center; /* 水平居中 */
+    align-items: top; /* 垂直居中 */
+    flex-direction: row;
+    margin-top: 30px;
+    gap:45px;
+    margin-left: 50px;
+}
+
+.textContainer {
+    width: 500px; /* 或您希望的固定宽度 */
+    max-width: 100%; /* 确保在小屏幕上不会超出屏幕宽度 */
+    height: 250px; /* 或您希望的固定高度 */
+    overflow: auto; /* 超出内容时显示滚动条 */
+    text-align: justify;
+    color: #2037B6;
+    margin-left: 50px;
+    
+}
+
+.calculater{
+    margin-right: 100px;
+}
+
+.h2_color{
+    color: #2037B6;
+}

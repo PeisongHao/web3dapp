@@ -1,0 +1,51 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* 半透明背景 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* 确保浮层在其他内容之上 */
+}
+
+.modalContent {
+    background-color: #F8F2E2;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    height: 16rem;
+    width: 40rem;
+    text-align: left;
+}
+
+.pinkButton {
+    background-color: #BD4088; /* 设置按钮背景为粉色 */
+    color: white; /* 设置按钮文字为白色 */
+    border: none; /* 移除边框 */
+    padding: 10px 20px; /* 设置内边距，可调整以改变按钮大小 */
+    font-size: 16px; /* 设置文字大小 */
+    border-radius: 5px; /* 圆角边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针样式 */
+}
+
+.pinkButton:hover {
+    background-color: #ff85a2; /* 鼠标悬停时按钮颜色变深 */
+}
+
+.blueTextSmall {
+    color: #2037B6;
+    font-size: 14px; /* 较小字体 */
+}
+
+.blueTextLarge {
+    color: #2037B6;
+    font-size: 19px; /* 较大字体 */
+    font-weight: bold;
+}
+
+.text{
+    align-items: center;
+}

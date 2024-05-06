@@ -1,0 +1,14 @@
+.cards_container {
+    display: flex;          /* 启用 Flexbox */
+    justify-content: center;/* 水平居中对齐 */
+    flex-wrap: nowrap;        /* 允许换行 */
+
+    margin-top: 2rem;
+}
+
+.cards_container2 {
+    display: flex;          /* 启用 Flexbox */
+    justify-content: center;/* 水平居中对齐 */
+    flex-wrap: nowrap;       /* 不允许换行 */
+    margin-top: 1.5rem;
+}
